@@ -1,0 +1,46 @@
+a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+  color: black;
+}
+div {
+  width: 500px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px green ridge;
+}
+div:nth-child(even) {
+  background-color: #8FD14F;
+  color: white;
+
+}
+div:hover {
+  transform: scale(1.1);
+}
+.pendentes{
+    background-color: #8FD14F;
+    color: white;
+  }
+  .concluidas{
+    background-color: #0CA789;
+    color: white;
+  }
+  
+  .excluidas{
+    background-color: #EB4045;
+    color: white;
+  }
+  ul{
+    text-align: center;
+    margin: 60px;
+    
+  }
